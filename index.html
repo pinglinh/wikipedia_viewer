@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/dc7df1b5a0.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+        <form class="search-form" id="search-form-id">
+          <h1><i class="fa fa-wikipedia-w" aria-hidden="true"></i>ikipedia Viewer</h1>
+          <input type="text" placeholder="Type something" class="search-input-field" id="search">
+          <button class="search-button" id="search-button" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="random-article-button" id="random-article-button" type="button"><i class="fa fa-random" aria-hidden="true"></i></button>
+        </form>
+    <ul class="results-list" id="results-list" class="row">
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
